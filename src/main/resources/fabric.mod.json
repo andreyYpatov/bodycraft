@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bodycraft",
+  "version": "${version}",
+  "name": "BodyCraft",
+  "description": "Редактор пропорций персонажа и 3D-одежды прямо в меню.",
+  "authors": [
+    "BodyCraft"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bodycraft.BodyCraftClient"
+    ]
+  },
+  "mixins": [
+    "bodycraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

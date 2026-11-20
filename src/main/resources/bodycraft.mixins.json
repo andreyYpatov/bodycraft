@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.bodycraft.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PlayerRenderStateMixin",
+    "PlayerModelMixin",
+    "PlayerRendererMixin",
+    "PauseScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
