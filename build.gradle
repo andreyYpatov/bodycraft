@@ -18,6 +18,10 @@ repositories {
     mavenCentral()
 }
 
+loom {
+    noIntermediateMappings()
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     implementation "net.fabricmc:fabric-loader:${project.loader_version}"
